@@ -1,4 +1,4 @@
-# hourglass
+# hourglass [![CircleCI](https://circleci.com/gh/hden/hourglass/tree/master.svg?style=svg)](https://circleci.com/gh/hden/hourglass/tree/master) [![codecov](https://codecov.io/gh/hden/hourglass/branch/master/graph/badge.svg)](https://codecov.io/gh/hden/hourglass)
 
 An opinionated wrapper for the Java 8 Date-Time API.
 
