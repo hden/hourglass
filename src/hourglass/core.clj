@@ -108,7 +108,7 @@
                 (format this s)))})
 
 (defn time
-  "A date without a time-zone in the ISO-8601 calendar system, such as 2007-12-03."
+  "A time without a time-zone in the ISO-8601 calendar system, such as 13:05:30."
   ([]
    (LocalTime/now))
   ([^Clock clock]
@@ -117,7 +117,7 @@
    (-> (^LocalDateTime datetime instant timezone)
        (.toLocalTime)))
   ([^Integer x ^Integer y ^Integer z]
-   {:pre [(every? pos-int? [x y z])]}
+   {:pre [(every? nat-int? [x y z])]}
    (LocalTime/of x y z)))
 
 (extend LocalTime
