@@ -5,5 +5,5 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.10.1"]
                  [inflections "0.13.2"]]
-  :plugins [[lein-cloverage "1.2.0"]]
+  :plugins [[lein-cloverage "1.2.1"]]
   :repl-options {:init-ns hourglass.core})
